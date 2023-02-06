@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.example.firebasephoneauthentication'
-    compileSdk 33
+    compileSdk 32
 
     defaultConfig {
         applicationId "com.example.firebasephoneauthentication"
         minSdk 19
-        targetSdk 33
+        targetSdk 32
         versionCode 1
         versionName "1.0"
 
@@ -29,9 +29,9 @@ android {
     }
 
     //enable view binding
-//    buildfeatures{
-//        viewBinding true;
-//    }
+    viewBinding {
+        enabled true
+    }
 }
 
 dependencies {
